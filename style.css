@@ -87,9 +87,18 @@ span{
     background-color: #4083FF;
     border: #4083FF;
     border-radius: 1px solid #4083FF ;
+    text-decoration: none;
 }
 .form-control{
     width: 18rem;
+}
+
+span{
+    
+}
+
+.input-group{
+    width: 28rem;
 }
 .coming {
   position: absolute;
@@ -117,5 +126,4 @@ line-height: 20px;
 letter-spacing: 0em;
 text-align: center;
 color: #667085;
-padding-top: 6rem;
 }

@@ -67,21 +67,22 @@ p {
 }
 
 input{
-    width: 18rem;
     height: 4.5rem;
-    background: transparent;
-    border: 0.1rem solid white;
+    border-right: none;
 }
-button{
-    height: 4.5rem;
-    width: 10rem;
-padding: 0px 24px 0px 24px;
-border-radius: 0px 12px 12px 0px;
-gap: 8px;
 
+.form-control::placeholder{
+    color: white;
+}
+
+a{
+    text-decoration: none;
 }
 .input-group-text {
     background-color: #4083FF;
+    border: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
 span{
     background-color: #4083FF;
@@ -91,6 +92,8 @@ span{
 }
 .form-control{
     width: 18rem;
+    border-right: none;
+    border-top-right-radius: 0;
 }
 
 .form-control{

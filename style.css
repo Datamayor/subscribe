@@ -93,10 +93,9 @@ span{
     width: 18rem;
 }
 
-span{
-    
+.form-control{
+    background-color: transparent;
 }
-
 .input-group{
     width: 28rem;
 }

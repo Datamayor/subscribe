@@ -3,12 +3,17 @@
     box-sizing: border-box;
     color: white;
 }
+button{
+  background: none;
+  border: none;
+}
 
 .gradient-background {
   background: #090e24;
   background-size: 180% 180%;
   animation: gradient-animation 18s ease infinite;
   height: 100vh;
+  position: relative;
 }
 
 @keyframes gradient-animation {
@@ -37,8 +42,9 @@ h1 {
 .images {
   margin-top: 3rem;
   display: flex;
-  width: 150px;
-  justify-content: space-between;
+  gap: 8px;
+  /* width: 150px; */
+  justify-content: center;
 }
 .medium {
   width: 40px;
@@ -137,6 +143,11 @@ letter-spacing: 0em;
 text-align: center;
 color: #667085;
 }
+footer{
+  position: absolute;
+  bottom: 0;
+  inset: auto 0 0;
+}
 
 
 @media screen and (max-width: 480px) {
@@ -147,7 +158,7 @@ color: #667085;
         line-height: 5rem;
         letter-spacing: 0.01em;
         text-align: left;
-        padding-top: 5rem;
+        padding-top: 3rem;
       }
 
 
@@ -158,6 +169,10 @@ color: #667085;
     .pen{
         width: 10rem;
     }
+  .logo{
+    margin: 2rem auto;
+    display: block;
+  }
 
     p {
         margin-top: 2rem;
@@ -177,8 +192,8 @@ input{
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
     display: flex;
-    width: 100px;
-    justify-content: space-between;
+    /* width: 100px; */
+    /* justify-content: space-between; */
   }
 .small{
     width: 20px;

@@ -13,6 +13,9 @@ button{
   background-size: 180% 180%;
   animation: gradient-animation 18s ease infinite;
   /* height: 100vh; */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 @keyframes gradient-animation {
@@ -33,6 +36,10 @@ h1 {
   letter-spacing: 0.01em;
   text-align: left;
   /* padding-top: 5rem; */
+}
+
+#title{
+  margin-bottom: 8rem;
 }
 
 .logo {
@@ -157,6 +164,10 @@ color: #667085;
 }
 .img{
   width: 350px;
+}
+
+#title{
+  margin-bottom: 4rem;
 }
 .container{
   display: flex;

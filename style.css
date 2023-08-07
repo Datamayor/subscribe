@@ -154,6 +154,9 @@ color: #667085;
 
 
 @media screen and (max-width: 990px) {
+  .imgg{
+    width: 156px;
+  }
   .good{
     display: flex;
     justify-content: center;

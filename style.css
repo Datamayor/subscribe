@@ -8,7 +8,6 @@
   background: #090e24;
   background-size: 180% 180%;
   animation: gradient-animation 18s ease infinite;
-  height: 100vh;
 }
 
 @keyframes gradient-animation {
